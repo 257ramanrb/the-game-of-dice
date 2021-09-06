@@ -5,9 +5,12 @@
 
 The "Game of Dice" is a multiplayer game where N players roll a 6 faced dice in a round-robin fashion. Each time a player rolls the dice their points increase by the number (1 to 6) achieved by the roll. As soon as a player accumulates M points they complete the game and are assigned a rank. Remaining players continue to play the game till they accumulate at least M points.
 
-## Steps to run
+# Steps to run
 
-### Using Docker
+## Using Docker
+
+Execute below command on CMD:
+
 ``` 
 docker run -it raman257/the-game-of-dice:0.1.0 <num-of-players> <target-score> 
 ```
@@ -17,7 +20,7 @@ Example:
 docker run -it raman257/the-game-of-dice:0.1.0 3 10 
 ```
 
-### Using JAR
+## Using JAR
  1. Go to [Releases](https://github.com/257ramanrb/the-game-of-dice/releases) section of this repository 
  2. Select latest release
  3. Under Assets, download `the-game-of-dice.jar`
@@ -32,7 +35,7 @@ docker run -it raman257/the-game-of-dice:0.1.0 3 10
  java -jar the-game-of-dice.jar 3 10 
  ``` 
  
- ### Using IDE
+ ## Using IDE
  1. Clone the repository
  2. Run the main class: `BoardGames`
 
