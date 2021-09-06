@@ -21,8 +21,11 @@ docker run -it raman257/the-game-of-dice:0.1.0 3 10
  1. Go to [Releases](https://github.com/257ramanrb/the-game-of-dice/releases) section of this repository 
  2. Select latest release
  3. Under Assets, download `the-game-of-dice.jar`
- 4. Execute this command on CMD in the directory containing downloaded JAR:
- ``` java -jar the-game-of-dice.jar <num-of-players> <target-score> ``` 
+ 4. Execute below command on CMD in the directory containing downloaded JAR:
+ 
+ ``` 
+ java -jar the-game-of-dice.jar <num-of-players> <target-score> 
+ ``` 
  
  Example: 
  ``` 
