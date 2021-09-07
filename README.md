@@ -38,6 +38,3 @@ docker run -it raman257/the-game-of-dice:0.1.0 3 10
  ## Using IDE
  1. Clone the repository
  2. Run the main class: `BoardGames`
-
-## Contributors
-[![Contributors Display](https://badges.pufler.dev/contributors/257ramanrb/dsa?size=50&padding=5&bots=true)](https://badges.pufler.dev)
